@@ -4,9 +4,8 @@ Temis is an Automatic Misogyny Identification tool. Using Deep Learning models, 
 
 Temis, which stands for Spanish Misogyny Test (Test Español de MISoginia), was born as my bachelor's thesis in UC3M, and developed with the inmense help of [Recognai](https://www.recogn.ai). It uses Deep Neural Networks to build a classificator around datasets from AMI competitions, in several training phases. It was developed using [biome.text](https://www.recogn.ai/biome-text/) and [BETO](https://huggingface.co/dccuchile/bert-base-spanish-wwm-uncased) to be an open-source project, so everything from dataset sources to model weights is available.
 
----
-**Trigger Warning**: misogyny, discredit, sexual harassment, verbal harassment, active aggressions towards women.
----
+> :warning: **Trigger Warning**: misogyny, discredit, sexual harassment, verbal harassment, active aggressions towards women.
+
 
 ## Dependencies
 The only needed Python library to start making predictions with Temis is [*biome.text*](https://github.com/recognai/biome-text), a functional NLP library with which Temis was designed and trained. To install it, a fresh conda environment is recommended:
