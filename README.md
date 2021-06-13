@@ -20,11 +20,11 @@ You can find more information about *biome.text* in its [Github page](https://gi
 
 ## Predictions
 There are five misogyny **categories**:
-*   `dominance`: Dominance, superiority assertion of men over women, highlighting a gender inequality.
-*   `derailing`: Derailing, justifying woman abuse by rejecting male responsibility.
-*   `discredit`: Discredit, to cause people to stop respecting someone or believing in an ideaor person that comes from a woman with no other argument than gender.
-*   `stereotype`: Stereotype & Objectification, widely  held  but  fixed  and  oversimplifiedimage or idea of a woman; description or comparison to narrow standards.
-*   `sexual_harassment`: Sexual Harassment & Threats of Violence, describe  actions  as  sexual advances, requesting for sexual favours, harassment of a sexual nature, intentsto physically assert power through threats of violence.
+*   `dominance`: **Dominance**, superiority assertion of men over women, highlighting a gender inequality.
+*   `derailing`: **Derailing**, justifying woman abuse by rejecting male responsibility.
+*   `discredit`: **Discredit**, to cause people to stop respecting someone or believing in an ideaor person that comes from a woman with no other argument than gender.
+*   `stereotype`: **Stereotype & Objectification**, widely  held  but  fixed  and  oversimplifiedimage or idea of a woman; description or comparison to narrow standards.
+*   `sexual_harassment`: **Sexual Harassment & Threats of Violence**, describe  actions  as  sexual advances, requesting for sexual favours, harassment of a sexual nature, intentsto physically assert power through threats of violence.
 
 And two **targets**:
 *   `active`: targeted to an specific woman or group of women.
@@ -48,11 +48,11 @@ pl.predict("Input text")
 
 ## Featured models
 In `models` folder all the models made for the thesis (all are explained there) can be found. Here is a quick summary:
-*   `temis_model.tar.gz`: Final Temis model, the one with the best performance and the one intended to be used almost all times.
-*   `binary_model.tar.gz`: Binary Classification Model, only offers a prediction of *sexist* (1) or *non-sexist* (0)
-*   `multilabel_model.tar.gz`: Multilabel Classification Model, trained with IberEval 2018 dataset
-*   `IberLEF 2021\`: folder with all models created for the Competition Model (IberLEF 2021).
-*   `fine-tuned_model.tar.gz`: Final Temis model created with a fine-tuning technique instead of a full retraining phase. It performs a little bit worse, in general.
+*   `temis_model.tar.gz`: **Final Temis model**, the one with the best performance and the one intended to be used almost all times.
+*   `binary_model.tar.gz`: **Binary Classification Model**, only offers a prediction of *sexist* (1) or *non-sexist* (0)
+*   `multilabel_model.tar.gz`: **Multilabel Classification Model**, trained with IberEval 2018 dataset
+*   `IberLEF 2021\`: folder with all models created for the **Competition Model** (*IberLEF 2021*).
+*   `fine-tuned_model.tar.gz`: **Final Temis** model created with a *fine-tuning* technique instead of a full retraining phase. It performs a little bit worse, in general.
 
 ## Flask API
 The REST API has been builded from a flask app, which can be also executed in local. You will need *biome.text* (previously discussed) and flask, which can be installed with:
