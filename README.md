@@ -54,7 +54,7 @@ In `models` folder all the models made for the thesis (all are explained there) 
 *   `IberLEF 2021\`: folder with all models created for the Competition Model (IberLEF 2021).
 *   `fine-tuned_model.tar.gz`: Final Temis model created with a fine-tuning technique instead of a full retraining phase. It performs a little bit worse, in general.
 
-# Flask API
+## Flask API
 The REST API has been builded from a flask app, which can be also executed in local. You will need *biome.text* (previously discussed) and flask, which can be installed with:
 
 ```shell script
@@ -69,7 +69,7 @@ flask run
 ```
 As an answer prompt, Flask will respond with the localhost where the app is running. You can then make the same GET requests discussed in the REST API section, but to this local direction.
 
-# Streamlit Demo 
+## Streamlit Demo 
 An [Streamlit demo](https://github.com/streamlit/streamlit) app is included, to test out the Final Model in a more user-friendly environment. There you can send some text to predict, choose your own threshold, review results in real time and read some insight of the project. To run it you will need *biome.text* (previously discussed) and streamlit, which you can install with the following command:
 
 ```shell script
