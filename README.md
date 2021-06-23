@@ -13,7 +13,7 @@ The only needed Python library to start making predictions with Temis is [*biome
 ```shell script
 conda create -n biome python~=3.7.0 pip>=20.3.0
 conda activate biome
-pip install -U biome-text
+pip install biome-text==2.2.0
 ```
 
 You can find more information about *biome.text* in its [Github page](https://github.com/recognai/biome-text).
