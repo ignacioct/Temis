@@ -35,8 +35,8 @@ A threshold of 0.5 is recommended to interpret the predictions. If any category 
 ## API REST
 The provided domain for the RESTful API is [temis.freemyip.com](temis.freemyip.com). You can these different HTTP request:
 
-*   **/info**: offers some information about \gls{temis} and its creation, in English.
-*   **/info_spanish**: offers some information about \gls{temis} and its creation, in Spanish.
+*   **/info**: offers some information about Temis and its creation, in English.
+*   **/info_spanish**: offers some information about Temis and its creation, in Spanish.
 *   **/label_info**: returns information about the content of the prediction, the categories, the targets and how to interpret them, in English.
 *   **/label_info_spanish**: returns information about the content of the prediction, the categories, the targets and how to interpret them, in Spanish.
 *   **/predict**: receives as input a parameter named text with the input text to be analyzed. Returns a list with each label and a list with the probability of each label.
